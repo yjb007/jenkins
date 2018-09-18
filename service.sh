@@ -5,7 +5,7 @@ set -ex
 export SERVICE_NAME='pilipa-inside-jenkins'
 export IMAGE_NAME='jenkins/yujianbo:latest'
 
-docker service rm pilipa-inside-git
+docker service rm pilipa-inside-jenkins
 sleep 2
 
 docker service create --name "$SERVICE_NAME" --network my-network --replicas 1 \
