@@ -9,8 +9,6 @@ export JAVA_OPTS="-Dhudson.tasks.MailSender.SEND_TO_USERS_WITHOUT_READ=true \
                   -Xmx2048m \
                   -Xmn1024m \
                   -XX:SurvivorRatio=6 \
-                  -XX:PermSize=256m \
-                  -XX:MaxPermSize=512m \
                   -XX:ParallelGCThreads=4 \
                   -XX:+UseConcMarkSweepGC \
                   -XX:+HeapDumpOnOutOfMemoryError \
