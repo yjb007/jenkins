@@ -5,9 +5,9 @@ export JENKINS_OPTS="--sessionTimeout=43200"
 export JAVA_OPTS="-Dhudson.tasks.MailSender.SEND_TO_USERS_WITHOUT_READ=true \
                   -Duser.timezone=Asia/Hong_Kong \
                   -Dhudson.security.csrf.requestfield=Jenkins-Crumb \
-                  -Xms2048m \
-                  -Xmx2048m \
-                  -Xmn1024m \
+                  -Xms1024m \
+                  -Xmx1024m \
+                  -Xmn512m \
                   -XX:SurvivorRatio=6 \
                   -XX:ParallelGCThreads=4 \
                   -XX:+UseConcMarkSweepGC \
