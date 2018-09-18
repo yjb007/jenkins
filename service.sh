@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -ex
+set -x
 
 export SERVICE_NAME='pilipa-inside-jenkins'
 export IMAGE_NAME='jenkins/yujianbo:latest'
