@@ -18,4 +18,4 @@ export JAVA_OPTS="-Dhudson.tasks.MailSender.SEND_TO_USERS_WITHOUT_READ=true \
                   -Dhudson.security.csrf.requestfield=Jenkins-Crumb \
                   -Dhudson.slaves.ChannelPinger.pingIntervalSeconds=5 \
                   -Dhudson.slaves.ChannelPinger.pingTimeoutSeconds=5"
-exec su-exec jenkins /bin/tini -- /usr/local/bin/jenkins.sh
+exec su-exec jenkins /sbin/tini -- /usr/local/bin/jenkins.sh
